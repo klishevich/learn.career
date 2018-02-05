@@ -465,6 +465,18 @@ h1, h2, h3, h4, h5, h6 {
   color: #000;
   margin-bottom: 16px;
 }
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+  font-family: 'PT Sans', arial;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 16px;
+  letter-spacing: 0 !important;
+}
 h1 {
   font-size: 42px;
   letter-spacing: -2px;
@@ -988,15 +1000,15 @@ blockquote p,
   .col-md-10 {
     width: 100%;
   }
-  .col-md-8 {
-    width: 100%;
-  }
   .col-md-4 {
     width: 100%;
   }
   .col-sm-6 {
     width: 50%;
   }
+  .col-md-8 {
+      width: 100%;
+    }
 }
 @media all and (max-width:510px) {
   .col-xs-12 {
@@ -4858,6 +4870,7 @@ a.liked span.sl-count,
   margin: 0;
 }
 .single-post .post-content {
+  font-family: 'PT Sans', arial;
   position: relative;
   overflow: hidden;
   margin-bottom: 50px;
@@ -4894,7 +4907,6 @@ a.liked span.sl-count,
   border: solid 1px #eceeef;
   color: #aeaeae;
 }
-
 .single-post .post-share-sticky a > i {
   margin: auto;
 }

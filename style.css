@@ -158,6 +158,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+body p, body a {
+  font-family: 'PT Sans', arial;
+}
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -395,7 +398,8 @@ th {
 }
 .bypostauthor .comment-date:after {
   content: "\f36b";
-  font-family: "Ionicons";
+/*  font-family: "Ionicons"; */
+  font-family: 'PT Sans', arial;
   margin-left: 6px;
   position: relative;
   vertical-align: -3px;
@@ -460,7 +464,8 @@ a, a i {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'wundermag-heading-font', sans-serif;
+/*  font-family: 'wundermag-heading-font', sans-serif; */
+  font-family: 'PT Sans', arial;
   font-weight: 700;
   color: #000;
   margin-bottom: 16px;
@@ -622,13 +627,16 @@ body,
 input,
 textarea,
 .in-cat, .by-author {
-  font-family: 'wundermag-body-font', sans-serif;
+/*  font-family: 'wundermag-body-font', sans-serif; */
+  font-family: 'PT Sans', arial;
 }
 input:-webkit-autofill,
 textarea:-webkit-autofill,
 select:-webkit-autofill {
-  font-family: 'wundermag-body-font', sans-serif !important;
-  -webkit-font-family: 'wundermag-body-font', sans-serif !important;
+/*  font-family: 'wundermag-body-font', sans-serif !important;
+  -webkit-font-family: 'wundermag-body-font', sans-serif !important; */
+  font-family: 'PT Sans', arial !important;
+  -webkit-font-family: 'PT Sans', arial !important;
 }
 
 
@@ -697,7 +705,8 @@ blockquote p,
 .woocommerce ul#shipping_method li,
 .shop-single-cat a
 {
-  font-family: 'wundermag-heading-font', sans-serif;
+/*  font-family: 'wundermag-heading-font', sans-serif; */
+  font-family: 'PT Sans', arial;
 }
 
 
@@ -1879,7 +1888,8 @@ background: none;
   color: #fff;
   margin-left: 5px;
   content: "NEW";
-  font-family: 'wundermag-heading-font';
+/*  font-family: 'wundermag-heading-font'; */
+  font-family: 'PT Sans', arial;
   font-size: 7px;
   letter-spacing: .5px;
   font-weight: bold;
@@ -2262,6 +2272,9 @@ input:-webkit-autofill:active {
 .featured-post-content {
   z-index: 9;
 }
+.featured-post-content .post-read-more a {
+  font-family: 'PT Sans', arial;
+}
 .featured-post h1,
 .featured-post h2,
 .featured-post h3,
@@ -2600,6 +2613,7 @@ input:-webkit-autofill:active {
   font-size: 12.1px;
   margin-bottom: 0;
 }
+
 .featured-post-content-bottom p {
   font-size: 10px;
 }
@@ -2745,6 +2759,9 @@ input:-webkit-autofill:active {
   text-transform: uppercase;
   margin-bottom: 0;
 }
+.post-cat a, .post-cat .in-cat {
+  font-family: 'PT Sans', arial;
+}
 .in-cat, .by-author {
   font-style: italic;
   font-weight: normal;
@@ -2766,7 +2783,9 @@ input:-webkit-autofill:active {
   font-style: italic;
   margin-bottom: 0;
 }
-.post-header-info > span {
+.post-header-info > span,
+.post-header-info > span > a {
+  font-family: 'PT Sans', arial;
   margin: 0 5px;
 }
 .post-header-info .ion-ios-clock {
@@ -3150,6 +3169,10 @@ a.liked span.sl-count,
 .post-entry-content h5,
 .post-entry-content h6 {
   margin-bottom: 20px;
+}
+.post-entry-content p,
+.post-entry-content .post-read-more a {
+  font-family: 'PT Sans', arial;
 }
 .post-read-more {
   text-align: center;
@@ -8233,6 +8256,7 @@ span.wpcf7-not-valid-tip {
 #footer p {
 }
 .footer-copyright {
+  font-family: 'PT Sans', arial;
   color: rgba(118, 118, 118, 0.75);
   font-size: 13px;
 }
